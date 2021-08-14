@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-// import Dashboard from './Dashboard/Dashboard';
-import Login from './Login/Login';
+import Login from '../pages/Login/Login';
+import "antd/dist/antd.css";
 
 function App() {
   return (
-    <div >
+    <div>
       <Login/>
     </div>
   );
